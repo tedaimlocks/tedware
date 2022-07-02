@@ -34,7 +34,7 @@ game.StarterGui:SetCore(
     "SendNotification",
     {
 	Title = "TedWare ",
-	Text = "Hi thx for using tedware Lol",
+	Text = "TedWare succesfully loaded!",
 }
 )
 local L_3_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
@@ -43,7 +43,7 @@ local L_5_ = L_4_:NewTab("Aimbot")
 local L_6_ = L_5_:NewSection("TedWare X")
 L_6_:NewButton(
     "Aimbot",
-    "Laser them niggers",
+    "Aimbot",
     function()
 	getgenv().AimPart = "HumanoidRootPart"
 	getgenv().AimlockKey = "c"
@@ -228,21 +228,21 @@ end
 )
 L_6_:NewTextBox(
     "Aimbot Key",
-    "Make this a lowercase letter.",
+    "Customize your Aimbot Key.",
     function(L_69_arg0)
 	getgenv().AimlockKey = L_69_arg0
 end
 )
 L_6_:NewTextBox(
     "Aimbot Prediction",
-    "Customize your aimbot prediction.",
+    "Customize your Aimbot Prediction.",
     function(L_70_arg0)
 	PredictionVelocity = L_70_arg0
 end
 )
 L_6_:NewDropdown(
     "AimPart",
-    "AimPart",
+    "Customize your Aimbot AimPart.",
     {
 	"Head",
 	"UpperTorso",
@@ -257,21 +257,21 @@ local L_7_ = L_4_:NewTab("Silent Aim")
 local L_8_ = L_7_:NewSection("TedWare X")
 L_8_:NewButton(
     "Silent Aim",
-    "Silent Aim Toggle Key is T.",
+    "Silent Aim",
     function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/tayodevelup/imsoniac/main/silentaim", true))()
 end
 )
 L_8_:NewTextBox(
     "Silent Aim Prediction",
-    "0.155-0.175 Recommended.",
+    "Customize your Silent Aim Prediction.",
     function(L_72_arg0)
 	DaHoodSettings.Prediction = L_72_arg0
 end
 )
 L_8_:NewDropdown(
     "Silent Aim Part",
-    "Where the script will aim at them.",
+    "Customize your Silent Aim Part",
     {
 	"Head",
 	"UpperTorso",
@@ -283,20 +283,20 @@ L_8_:NewDropdown(
 end
 )
 L_8_:NewTextBox(
-    "Silent Aim Fov",
-    "The amount of space the silent aim will activate in.",
+    "Silent Aim FOV",
+    "Customize your Silent Aim FOV.",
     function(L_74_arg0)
 	Aiming.FOV = L_74_arg0
 end
 )
 L_8_:NewToggle(
-    "Silent Aim Show Fov",
-    "Toggle this if u want to see F0V or not.",
+    "Silent Aim Show FOV",
+    "Silent Aim FOV Toggle.",
     function(L_75_arg0)
 	Aiming.ShowFOV = L_75_arg0
 end
 )
-local L_11_ = L_4_:NewTab("Antilock")
+local L_11_ = L_4_:NewTab("AntiLock")
 local L_12_ = L_11_:NewSection("TedWare X")
 L_12_:NewButton(
     "Anti-Lock",
@@ -427,7 +427,7 @@ local L_13_ = L_4_:NewTab("Settings")
 local L_14_ = L_13_:NewSection("TedWare X")
 L_14_:NewKeybind(
     "Keybind Gui Toggle",
-    "h",
+    "Customize your GUI Toggle Key.",
     Enum.KeyCode.V,
     function()
 	L_3_:ToggleUI()
