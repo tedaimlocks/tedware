@@ -34,7 +34,7 @@ game.StarterGui:SetCore(
     "SendNotification",
     {
 	Title = "TedWare ",
-	Text = "TedWare succesfully loaded!",
+	Text = "Succesfully Loaded!",
 }
 )
 local L_3_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
