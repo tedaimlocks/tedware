@@ -10,6 +10,7 @@
 # ➜  Mass Delete Roles
 # ➜  Mass Create Channels
 # ➜  Mass Delete Channels
+# ➜  Auto Server Scrape
 # ➜  Mass Message Spam
 # ➜  Great Design
 # ➜  Slick UI
