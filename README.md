@@ -1,6 +1,6 @@
 ### Discord Server Nuker
 
-## The best server nuker for discord, super easy to use and effective! Here I leave you the functionss it has.
+## The best server nuker for discord, super easy to use and effective! Here I leave you the functions it has.
 
 ### Features
 
