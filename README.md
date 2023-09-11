@@ -12,9 +12,10 @@
 # ➜  Mass Delete Channels
 # ➜  Auto Server Scrape
 # ➜  Mass Message Spam
+# ➜  Simple To Setup
 # ➜  Great Design
 # ➜  Slick UI
-# ➜  Simple To Setup
+
 
 ### Usage
 
