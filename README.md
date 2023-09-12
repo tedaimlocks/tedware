@@ -12,6 +12,7 @@
 # ➜  Mass Delete Channels
 # ➜  Mass Message Spam
 # ➜  Auto Server Scrape
+# ➜  Supports User/Bot Token
 # ➜  Simple To Setup
 # ➜  Great Design
 # ➜  Slick UI
