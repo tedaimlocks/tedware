@@ -3,7 +3,7 @@
     "server_id": 123,
     "use_proxy": false,
     "whitelisted_users": [
-        "780473798025281546",
-        "123"
+        "userid1",
+        "userid2"
     ]
 }
